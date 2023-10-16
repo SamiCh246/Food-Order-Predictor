@@ -4,8 +4,6 @@
 
 ### Exploratory Data Analysis (EDA)
 
-During the Exploratory Data Analysis phase, the dataset revealed valuable insights:
-
 - **Skewed Distributions:** Several variables in the dataset exhibited significant skewness. For example, the 'Year' feature was highly skewed, dominated by years 2 and 3, while the 'Order' (target variable) displayed a relatively uniform distribution. This skewness could impact model performance and requires careful consideration.
 - **Categorical Abundance:** The dataset contains a plethora of categorical features, indicating a need for specific preprocessing approaches. This bias towards categorical variables suggests that without data transformation, certain machine learning models may not perform optimally.
 - **Visualizations and Findings:** EDA visualizations were generated to gain an in-depth understanding of the feature distributions and their interactions. The visuals offer insights into the relationships between variables, contributing to better model selection and data interpretation.
