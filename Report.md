@@ -12,8 +12,6 @@ During the Exploratory Data Analysis phase, the dataset revealed valuable insigh
 
 ## Other Potential Use Cases
 
-In addition to predicting student orders, the dataset holds promise for diverse applications, including:
-
 - **Predicting Spending Habits:** The data could be leveraged to predict the amount of money students are willing to spend on their orders, offering insights into pricing strategies.
 - **Food Quantity Estimation:** A predictive model could be developed to estimate the quantity of food (in calories or servings) that students are likely to order, aiding inventory management.
 - **Lunchtime Predictions:** The dataset could be harnessed to predict the average time students allocate for lunch based on a multitude of factors, helping in optimizing food truck schedules.
@@ -30,8 +28,6 @@ Furthermore, this dataset has the potential to support the creation of a general
 
 ### Business Outcome Implications
 
-The implications for business outcomes are significant:
-
 - **Workload Reduction:** Accurate order predictions have the potential to significantly reduce staff workload, enhancing overall operational efficiency.
 - **Cost Savings:** By minimizing incorrect order preparations, FoodX can reduce operational costs while offering customers a superior experience.
 
@@ -39,16 +35,12 @@ However, offering a discount to customers when predictions are incorrect could p
 
 ### Technical Implications
 
-Several technical considerations must be addressed:
-
 - **Data Preprocessing:** Uneven distribution of values in certain variables can lead to overfitting, impacting model generalization. Grouping similar categories or majors is a potential solution to mitigate this issue.
 - **Model Scaling:** Depending on data volume and update frequency, the model's storage and complexity could increase over time. Technical solutions should be implemented to accommodate these requirements.
 
 ## Model Development
 
 ### Model Selection
-
-The model selection process encompassed the following steps:
 
 - **Categorical Features:** Given the abundance of categorical features in the dataset, a variant of random tree/forest classification was considered due to its compatibility with such data.
 - **Ensemble Learning:** Random forest models were investigated for their ensemble nature, which often provides robust performance when considering combinations of categorical features.
@@ -64,8 +56,6 @@ The training process involved extensive data preprocessing to convert categorica
 Model interpretability is a crucial aspect that ensures transparency in the model's decisions. In the context of FoodX, the interpretability of the model plays a pivotal role in building user and stakeholder trust.
 
 ## Considerations for Implementation
-
-To assess the suitability of implementing the AI-based order prediction system, several key considerations are proposed:
 
 - **Cost-Benefit Analysis:** A comprehensive analysis should be conducted to calculate cost savings resulting from the implementation of the model. It is essential to compare the impact of offering a 10% discount to customers for incorrect predictions against not providing the discount. This analysis will help gauge the effectiveness and cost-effectiveness of the model.
 - **Benchmarking:** To determine the actual effectiveness of the model, benchmarking against simple strategies, such as guessing the most popular or expensive dish, is recommended. Benchmarking against random guessing reveals that the model's accuracy exceeds a random 1 in 10 chance, indicating the potential benefits of model implementation.
