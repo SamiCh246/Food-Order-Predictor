@@ -8,7 +8,7 @@
 - **Categorical Abundance:** The dataset contains a plethora of categorical features, indicating a need for specific preprocessing approaches. This bias towards categorical variables suggests that without data transformation, certain machine learning models may not perform optimally.
 - **Visualizations and Findings:** EDA visualizations were generated to gain an in-depth understanding of the feature distributions and their interactions. The visuals offer insights into the relationships between variables, contributing to better model selection and data interpretation.
 
-## Other Potential Use Cases
+## Business Use Cases
 
 - **Predicting Spending Habits:** The data could be leveraged to predict the amount of money students are willing to spend on their orders, offering insights into pricing strategies.
 - **Food Quantity Estimation:** A predictive model could be developed to estimate the quantity of food (in calories or servings) that students are likely to order, aiding inventory management.
@@ -41,7 +41,6 @@ However, offering a discount to customers when predictions are incorrect could p
 ### Model Selection
 
 - **Categorical Features:** Given the abundance of categorical features in the dataset, a variant of random tree/forest classification was considered due to its compatibility with such data.
-- **Ensemble Learning:** Random forest models were investigated for their ensemble nature, which often provides robust performance when considering combinations of categorical features.
 - **Comparison with Alternative Models:** While various models were assessed, the strong dependence on categorical features led to the underperformance of models like K-nearest neighbors and support vector machines.
 - **Decision Tree Classifier:** The decision tree classifier was selected as the final model due to its competitive performance and high interpretability.
 
