@@ -39,3 +39,7 @@ The primary objective of this assessment is to automate order prediction for Foo
 ## Considerations
 
 Considerations for the deployment and maintenance of the solution, including model updates, data security, scalability, and model explainability.
+
+## View Full Report
+
+For a more detailed analysis, view the full report in the [Report.md](Report.md) file
