@@ -1,6 +1,6 @@
 # FoodX Order Prediction - Xtern AI Work Assessment
 
-This repository contains a solution for the Xtern AI Work Assessment related to predicting customer orders for FoodX.
+This repository contains the solution for the Xtern AI Work Assessment related to predicting customer orders for FoodX.
 
 ## Introduction
 
