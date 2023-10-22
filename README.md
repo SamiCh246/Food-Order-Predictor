@@ -1,10 +1,8 @@
-# FoodX Order Prediction - Xtern AI Work Assessment
-
-This repository contains my solution for the Xtern AI Work Assessment related to predicting customer orders for FoodX.
+# Food Order Predictor
 
 ## Introduction
 
-The primary objective of this assessment is to automate order prediction for FoodX customers to enhance customer satisfaction and reduce the workload on staff. We aim to build a machine learning model to predict orders based on the provided dataset.
+The primary objective of this assessment is to automate order prediction to enhance customer satisfaction and reduce the workload on staff. We aim to build a machine learning model to predict orders based on the provided dataset.
 
 ## Exploratory Data Analysis (EDA)
 
