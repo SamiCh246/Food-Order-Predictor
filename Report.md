@@ -1,4 +1,4 @@
-# Xtern AI Work Sample Assessment Report
+# Food Order Predictor Report
 
 ## Distributions and Biases
 
@@ -6,7 +6,7 @@
 
 - **Skewed Distributions:** Several variables in the dataset exhibited significant skewness. For example, the 'Year' feature was highly skewed, dominated by years 2 and 3, while the 'Order' (target variable) displayed a relatively uniform distribution. This skewness could impact model performance and requires careful consideration.
 - **Categorical Abundance:** The dataset contains a plethora of categorical features, indicating a need for specific preprocessing approaches. This bias towards categorical variables suggests that without data transformation, certain machine learning models may not perform optimally.
-- **Visualizations and Findings:** EDA visualizations were generated to gain an in-depth understanding of the feature distributions and their interactions. The visuals offer insights into the relationships between variables, contributing to better model selection and data interpretation.
+- **Visualizations and Fternindings:** EDA visualizations were generated to gain an in-depth understanding of the feature distributions and their interactions. The visuals offer insights into the relationships between variables, contributing to better model selection and data interpretation.
 
 ## Business Use Cases
 
@@ -14,7 +14,7 @@
 - **Food Quantity Estimation:** A predictive model could be developed to estimate the quantity of food (in calories or servings) that students are likely to order, aiding inventory management.
 - **Lunchtime Predictions:** The dataset could be harnessed to predict the average time students allocate for lunch based on a multitude of factors, helping in optimizing food truck schedules.
 
-Furthermore, this dataset has the potential to support the creation of a generalized model that predicts a student's desired meal from an extended menu, broadening FoodX's offerings based on predicting factors like desired calories or price.
+Furthermore, this dataset has the potential to support the creation of a generalized model that predicts a student's desired meal from an extended menu, broadening company's offerings based on predicting factors like desired calories or price.
 
 ## Implications of Data Collection, Storage, and Data Biases
 
@@ -27,7 +27,7 @@ Furthermore, this dataset has the potential to support the creation of a general
 ### Business Outcome Implications
 
 - **Workload Reduction:** Accurate order predictions have the potential to significantly reduce staff workload, enhancing overall operational efficiency.
-- **Cost Savings:** By minimizing incorrect order preparations, FoodX can reduce operational costs while offering customers a superior experience.
+- **Cost Savings:** By minimizing incorrect order preparations, a company can reduce operational costs while offering customers a superior experience.
 
 However, offering a discount to customers when predictions are incorrect could potentially attract more customers. Therefore, it's crucial to evaluate whether the cost of discounts is outweighed by the additional business.
 
@@ -50,7 +50,7 @@ The training process involved extensive data preprocessing to convert categorica
 
 ## Model Interpretability
 
-Model interpretability is a crucial aspect that ensures transparency in the model's decisions. In the context of FoodX, the interpretability of the model plays a pivotal role in building user and stakeholder trust.
+Model interpretability is a crucial aspect that ensures transparency in the model's decisions.
 
 ## Considerations for Implementation
 
