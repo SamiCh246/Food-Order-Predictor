@@ -6,9 +6,9 @@ The primary objective of this project is to automate order prediction to enhance
 
 ## Exploratory Data Analysis (EDA)
 
-- Conducted EDA to understand the distribution and biases in the data.
-- Visualized feature distributions and interactions with the target variable.
-- Provided insights into the data's patterns and correlations.
+- Conducted EDA to understand the distribution and biases in the data
+- Visualized feature distributions and interactions with the target variable
+- Provided insights into the data's patterns and correlations
 
 ## Implications
 
